@@ -8,7 +8,7 @@ Currently, two official plugins are available:
 -Download this project from github
 
 # Step 1
-- git clone 
+- git clone https://github.com/vicky705/beers.git
 
 # Step 2
 - cd beer
