@@ -1,0 +1,158 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container-fluid{
+  padding: 0px;
+}
+p{
+  margin-bottom: 0px;
+}
+::-webkit-scrollbar{
+  width: 8px;
+  background-color: rgb(5, 53, 18);
+}
+::-webkit-scrollbar-thumb{
+  background-color: #a21d74;
+  border-radius: 10px;
+}
+/*   Nav bar  */
+.nav-bar{
+  background-color: #638fdc;
+}
+.nav-bar .container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.nav-bar .container .row{
+  width: 100%;
+  margin: 0px;
+}
+.nav-bar .container .logo .title{
+  font-size: 30px;
+  font-weight: 600;
+  color: white;
+}
+.nav-bar .container .search input{
+  padding: 5px 10px;
+  border: 1px solid gray;
+  outline: none;
+  border-radius: 5px;
+}
+.nav-bar .search{
+  display: flex;
+  align-items: center;
+  justify-content: right;
+}
+.nav-bar .manu-parent{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.nav-bar .menu ul{
+  list-style: none;
+  display: flex;
+  align-items: center;
+  margin-bottom: 0px;
+}
+.nav-bar .menu ul li a{
+  color: white;
+  text-decoration: none;
+  padding: 0px 10px;
+  font-size: 18px;
+  font-weight: 500;
+  transition: .3s ease;
+}
+.nav-bar .menu ul li a:hover{
+  color: black;
+}
+.nav-bar .menu ul li .active{
+  color: black;
+}
+@media screen and (max-width: 768px){
+  .nav-bar .search{
+    width: 100%;
+  }
+  .nav-bar .search input{
+    width: 100%;
+  }
+}
+/*   / Nav bar   */
+
+/*   Beer card   */
+.beer-card{
+  width: 100%;
+  background-color: #eff4f9;
+  padding: 10px;
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+.beer-card .image{
+  width: 150px;
+  height: 300px;
+}
+.beer-card .img-dev{
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+.beer-card .name{
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+.beer-card .description{
+  margin-top: 10px;
+}
+.beer-card .fa-star{
+  font-size: 20px;
+  margin-top: 10px;
+  cursor: pointer;
+  transition: .3s ease;
+  width: auto;
+}
+.beer-card .not-fav:hover{
+  color: #a21d74;
+}
+.beer-card .fav{
+  color: #a21d74;
+}
+/*   /Beer card   */
+
+/*   Home   */
+.home{
+  padding-bottom: 50px;
+}
+.home .title,
+.faverate-page .title{
+  font-size: 30px;
+  padding: 20px 0px;
+  font-weight: 500;
+}
+/*   /Home   */
+
+/*  Footer   */
+.footer{
+  background-color: #638fdc;
+  padding: 20px;
+}
+.footer p{
+  color: white;
+  font-weight: 500;
+}
+.footer .copy-div{
+  display: flex;
+  justify-content: space-between;
+}
+/*  /Footer   */
+
+
+/* Faverate beer page */
+.faverate-page .fav-beer{
+  padding-bottom: 20px;
+}
+/* /Faverate beer page */
